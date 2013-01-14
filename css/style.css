@@ -1,0 +1,102 @@
+/*
+*	RESET CSS - Ateneu
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3,
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt,
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	color: inherit;
+}
+:focus { outline: 0;}
+a, a:link, a:visited, a:hover, a:active{text-decoration:none}
+table {	border-collapse: separate;border-spacing: 0;}
+th, td {text-align: left; font-weight: normal;}
+img, iframe {border: none; text-decoration:none;}
+ol, ul {list-style: none;}
+input, textarea, select, button {font-size: 100%;font-family: inherit;}
+select {margin: inherit;}
+hr {margin: 0;padding: 0;border: 0;color: #000;background-color: #000;height: 1px}
+
+
+/* Custom CSS /
+
+/* Custom CSS */
+/* Palette: https://kuler.adobe.com/#themeID/2147819 */
+body {
+	background-image: url('../img/bg.png');
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'Oleo Script Swash Caps', serif;
+}
+
+header {
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+section {
+	display: inline-block;
+}
+
+aside {
+	text-align: center;
+	display: inline-block;
+	background-color: red;
+}
+
+h1 {
+	margin-top: 20px;
+	font-size: 100px;
+	font-family: 'Droid Sans', sans-serif;
+	text-align: center;
+	color: #D64F2A;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: 'Oleo Script Swash Caps', serif;
+	color: #335D6A;
+	text-align: center;
+}
+
+label {
+	display: block;
+}
+input {
+	display: block;
+}
+
+/* Styling table */
+table {
+	margin: 40px auto;
+	color: #616161;
+
+}
+table, th, td {
+	border-collapse: collapse;
+	border: 1px solid #D0D0D0;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+img {
+	vertical-align: middle;
+}
+
+th, td {
+	width: 32px;
+	height: 32px;
+}
+
