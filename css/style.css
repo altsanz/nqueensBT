@@ -38,7 +38,7 @@ body {
 	background-image: url('../img/bg.png');
 	width: 960px;
 	margin: 0 auto;
-	font-family: 'Oleo Script Swash Caps', serif;
+	font-family: 'Droid Sans', sans-serif;
 }
 
 header {
@@ -50,32 +50,45 @@ section {
 }
 
 aside {
-	text-align: center;
 	display: inline-block;
-	background-color: red;
+
+}
+
+article {
+	display: inline-block;
+	width: 480px;
+}
+
+.content {
+	margin-top: 20px;
 }
 
 h1 {
 	margin-top: 20px;
 	font-size: 100px;
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Oleo Script Swash Caps', serif;
 	text-align: center;
-	color: #D64F2A;
+	color: black;
+	color: rgba(255, 255, 255,0.1);
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .3), 0 -1px 0 rgba(162, 162, 162, .7); 
 }
 
 h2 {
 	font-size: 40px;
-	font-family: 'Oleo Script Swash Caps', serif;
 	color: #335D6A;
 	text-align: center;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
 }
 
-label {
-	display: block;
+input, button {
+	line-height: 2em;
+	display: inline-block;
 }
+
 input {
-	display: block;
+	width: 50px;
 }
+
 
 /* Styling table */
 table {
@@ -84,6 +97,7 @@ table {
 
 }
 table, th, td {
+	margin: 0 auto;
 	border-collapse: collapse;
 	border: 1px solid #D0D0D0;
 	text-align: center;

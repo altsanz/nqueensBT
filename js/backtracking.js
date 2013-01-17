@@ -1,15 +1,16 @@
-var maxRows = 9,
-	maxColumns = 9,
+var maxRows = 8,
+	maxColumns = 8,
 	board = [],
 	solutions = [];
 
 
-/**
- * Backtracking algorithm
- * @param k Level where backtracking is being executed
- */
+function initBacktracking(size) {
+	maxRows = size;
+	maxColumns = size;
+	backtracking(1, board);
+}
 
-// Start with backtracking(1, []);
+// Start with backtracking(1, board);
 
 function backtracking(level, list) {
 	var childs = getChilds(),
@@ -18,7 +19,6 @@ function backtracking(level, list) {
 		//console.log("Child: [" + child + ", " + (level - 1) + "]");
 		list.push(child);
 		if(childIsValid(list, level)) {
-
 			if(isSolution(list, level)) {
 				console.log("SOLUTION FOUND: " + list);
 				solutions.push(list.toString());
