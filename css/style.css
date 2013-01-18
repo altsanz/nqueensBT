@@ -51,6 +51,7 @@ section {
 
 aside {
 	display: inline-block;
+	vertical-align: top;
 
 }
 
