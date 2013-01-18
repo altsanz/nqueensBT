@@ -5,6 +5,7 @@ var maxRows = 8,
 
 
 function initBacktracking(size) {
+	solutions = [];	// solutions arrays has to be reinitialized.
 	maxRows = size;
 	maxColumns = size;
 	backtracking(1, board);

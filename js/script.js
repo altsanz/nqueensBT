@@ -1,5 +1,5 @@
 var MYAPP = (function() {
-	var randomSolution;
+	var randomSolution = [];
 	function generateBoard() {
 		var article, table, i, tableHeader, tableHeaderNode, size;
 		size = parseInt(document.getElementById('sizeBoard').value, 10);
